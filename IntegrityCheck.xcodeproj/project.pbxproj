@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09656C1925EBDBB5005102EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DBC81D25C724DB0029A6CA /* ViewController.swift */; };
+		09DBC81A25C724DB0029A6CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DBC81925C724DB0029A6CA /* AppDelegate.swift */; };
+		09DBC81C25C724DB0029A6CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DBC81B25C724DB0029A6CA /* SceneDelegate.swift */; };
+		09DBC82125C724DB0029A6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DBC81F25C724DB0029A6CA /* Main.storyboard */; };
+		09DBC82325C724DD0029A6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DBC82225C724DD0029A6CA /* Assets.xcassets */; };
+		09DBC82625C724DD0029A6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DBC82425C724DD0029A6CA /* LaunchScreen.storyboard */; };
+		09DC15A625EDFD2A000D24BE /* CodeIntegirtyChecks.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DBC82F25C725580029A6CA /* CodeIntegirtyChecks.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09DBC81625C724DB0029A6CA /* IntegrityCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrityCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DBC81925C724DB0029A6CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09DBC81B25C724DB0029A6CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		09DBC81D25C724DB0029A6CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09DBC82025C724DB0029A6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09DBC82225C724DD0029A6CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09DBC82525C724DD0029A6CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09DBC82725C724DD0029A6CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09DBC82E25C725570029A6CA /* IntegrityCheck-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntegrityCheck-Bridging-Header.h"; sourceTree = "<group>"; };
+		09DBC82F25C725580029A6CA /* CodeIntegirtyChecks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeIntegirtyChecks.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DBC81325C724DB0029A6CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DBC80D25C724DB0029A6CA = {
+			isa = PBXGroup;
+			children = (
+				09DBC81825C724DB0029A6CA /* IntegrityCheck */,
+				09DBC81725C724DB0029A6CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09DBC81725C724DB0029A6CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DBC81625C724DB0029A6CA /* IntegrityCheck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09DBC81825C724DB0029A6CA /* IntegrityCheck */ = {
+			isa = PBXGroup;
+			children = (
+				09DBC81925C724DB0029A6CA /* AppDelegate.swift */,
+				09DBC81B25C724DB0029A6CA /* SceneDelegate.swift */,
+				09DBC81D25C724DB0029A6CA /* ViewController.swift */,
+				09DBC81F25C724DB0029A6CA /* Main.storyboard */,
+				09DBC82225C724DD0029A6CA /* Assets.xcassets */,
+				09DBC82425C724DD0029A6CA /* LaunchScreen.storyboard */,
+				09DBC82725C724DD0029A6CA /* Info.plist */,
+				09DBC82E25C725570029A6CA /* IntegrityCheck-Bridging-Header.h */,
+				09DC15A425EDE86B000D24BE /* Solution */,
+			);
+			path = IntegrityCheck;
+			sourceTree = "<group>";
+		};
+		09DC15A425EDE86B000D24BE /* Solution */ = {
+			isa = PBXGroup;
+			children = (
+				09DBC82F25C725580029A6CA /* CodeIntegirtyChecks.m */,
+			);
+			path = Solution;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09DBC81525C724DB0029A6CA /* IntegrityCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DBC82A25C724DD0029A6CA /* Build configuration list for PBXNativeTarget "IntegrityCheck" */;
+			buildPhases = (
+				09DBC81225C724DB0029A6CA /* Sources */,
+				09DBC81325C724DB0029A6CA /* Frameworks */,
+				09DBC81425C724DB0029A6CA /* Resources */,
+				09AA5F7425E94A920015D6B8 /* Calculate & inject code hash */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntegrityCheck;
+			productName = IntegrityCheck;
+			productReference = 09DBC81625C724DB0029A6CA /* IntegrityCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09DBC80E25C724DB0029A6CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					09DBC81525C724DB0029A6CA = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 09DBC81125C724DB0029A6CA /* Build configuration list for PBXProject "IntegrityCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09DBC80D25C724DB0029A6CA;
+			productRefGroup = 09DBC81725C724DB0029A6CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09DBC81525C724DB0029A6CA /* IntegrityCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09DBC81425C724DB0029A6CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DBC82625C724DD0029A6CA /* LaunchScreen.storyboard in Resources */,
+				09DBC82325C724DD0029A6CA /* Assets.xcassets in Resources */,
+				09DBC82125C724DB0029A6CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09AA5F7425E94A920015D6B8 /* Calculate & inject code hash */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Calculate & inject code hash";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This script calculates the sha of the assemply code of the binary\n# and replaces a placeholder sha in the app(inside CodeIntegirtyChecks.m) with the calculated sha value\n# The calculated sha value is used at runtime for validating that the app has not been tampered with\n\n# Find the path to the .app\nbinary_path=\"${CONFIGURATION_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\nif [ -L \"${binary_path}\" ]; then\necho \"binary_path is Symlinked...\"\nbinary_path=\"$(readlink \"${binary_path}\")\"\nfi\n\n# Find the app to the binary inside the .app\n# e.g. IntegrityCheck.app/IntegrityCheck\nbinary=\"${binary_path}/${PRODUCT_NAME}\"\nplaceholderSHA512=b49f106b516fcd8a87258b23939586a7974cd7350dd4fe3c3699a1f6b7781cb5b68db30c7625284174d96bbb1586d73c8229596c16e584013d05e844d9464df5\ntemp_dir=$(mktemp -d)\n\n# Find the current memory position of the placeholder sha in the __cstring section (so that we can replace it with the one we are going to calculate)\n# This is the absolute memory position\nmemory_position=$(otool -v -s __TEXT __cstring \"${binary}\" | grep -i \"${placeholderSHA512}\" | cut -d' ' -f1)\n# remove leading zeros from memory e.g. 0000000101eff510 -> 101eff510\nmemory_position=$(echo ${memory_position} | sed \"s/^0*\\([1-9]\\)/\\1/;s/^0*$/0/\")\n\nif [ ${memory_position} -eq 0 ]; then\n#echo \"error: could not find placeholder sha512 in main.m to be replaced with the current sha512 of the binary\"\nexit 0\nelse\necho \"found placehodler binary sha512 in memory position ${memory_position}\"\nfi\n\n# find the memory position that starts the __TEXT segment \nsegment_offset=$(xcrun size -x -l -m \"${binary}\" | grep \"Segment __TEXT\" | cut -d' ' -f5 | sed s/\"0x\"//)\n\n# remove memory position of the start of the  __TEXT segment \n# form the memory position of the sha 0000000100007e4b - 0000000100000000 -> 7e4b\n# we need to calculate the relative to the  __TEXT segment position\nprintf -v relative_memory_position '%#X' \"$((0x$memory_position - 0x$segment_offset))\"\n\n# calculate the sha512 of the current assembly code (__text section of the __TEXT segment)\necho \"extracting the assembly code (__text section of the __TEXT segment)\"\nxcrun segedit \"${binary}\" -extract __TEXT __text \"${temp_dir}/text_segment\"\necho \"calculating the hash of the __text segment\"\ncurrent_sha512=$(sha512sum \"${temp_dir}/text_segment\" | cut -d' ' -f1)\n\necho \"replacing the placeholder hash with the hash of the current assembly\"\npython \"${SRCROOT}/patch_macho.py\" \"${binary}\" \"${relative_memory_position}\" \"${current_sha512}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DBC81225C724DB0029A6CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DBC81A25C724DB0029A6CA /* AppDelegate.swift in Sources */,
+				09656C1925EBDBB5005102EA /* ViewController.swift in Sources */,
+				09DBC81C25C724DB0029A6CA /* SceneDelegate.swift in Sources */,
+				09DC15A625EDFD2A000D24BE /* CodeIntegirtyChecks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09DBC81F25C724DB0029A6CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DBC82025C724DB0029A6CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09DBC82425C724DD0029A6CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DBC82525C724DD0029A6CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09DBC82825C724DD0029A6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		09DBC82925C724DD0029A6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09DBC82B25C724DD0029A6CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntegrityCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IntegrityCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntegrityCheck/IntegrityCheck-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09DBC82C25C724DD0029A6CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IntegrityCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IntegrityCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntegrityCheck/IntegrityCheck-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DBC81125C724DB0029A6CA /* Build configuration list for PBXProject "IntegrityCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DBC82825C724DD0029A6CA /* Debug */,
+				09DBC82925C724DD0029A6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DBC82A25C724DD0029A6CA /* Build configuration list for PBXNativeTarget "IntegrityCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DBC82B25C724DD0029A6CA /* Debug */,
+				09DBC82C25C724DD0029A6CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09DBC80E25C724DB0029A6CA /* Project object */;
+}
