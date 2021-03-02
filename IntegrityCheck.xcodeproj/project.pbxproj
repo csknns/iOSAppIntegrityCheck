@@ -13,7 +13,7 @@
 		09DBC82125C724DB0029A6CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DBC81F25C724DB0029A6CA /* Main.storyboard */; };
 		09DBC82325C724DD0029A6CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DBC82225C724DD0029A6CA /* Assets.xcassets */; };
 		09DBC82625C724DD0029A6CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DBC82425C724DD0029A6CA /* LaunchScreen.storyboard */; };
-		09DC15A625EDFD2A000D24BE /* CodeIntegirtyChecks.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DBC82F25C725580029A6CA /* CodeIntegirtyChecks.m */; };
+		09DC168425EEA4E6000D24BE /* CodeIntegirtyChecks.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DBC82F25C725580029A6CA /* CodeIntegirtyChecks.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,7 +178,7 @@
 				09DBC81A25C724DB0029A6CA /* AppDelegate.swift in Sources */,
 				09656C1925EBDBB5005102EA /* ViewController.swift in Sources */,
 				09DBC81C25C724DB0029A6CA /* SceneDelegate.swift in Sources */,
-				09DC15A625EDFD2A000D24BE /* CodeIntegirtyChecks.m in Sources */,
+				09DC168425EEA4E6000D24BE /* CodeIntegirtyChecks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
